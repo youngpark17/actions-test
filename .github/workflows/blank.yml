@@ -42,4 +42,11 @@ jobs:
           ls -al
           cd ..
           ls -al
+      - name: set evn
+          HOST: ${{ secrets.HOST }}
+          USERNAME: ${{ secrets.USERNAME }}
+          PASSWORD: ${{ secrets.PASSWORD }}
+      - name: echo env
+        run: |
+          env
 
