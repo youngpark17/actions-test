@@ -37,3 +37,7 @@ jobs:
       - name: check path
         run: |
           pwd
+      - name: find file
+        run: |
+          find / -name blank.yml
+
