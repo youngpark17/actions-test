@@ -39,6 +39,7 @@ jobs:
           pwd
       - name: find file
         run: |
+          ls -al
           cd ..
           ls -al
 
