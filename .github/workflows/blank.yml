@@ -39,5 +39,6 @@ jobs:
           pwd
       - name: find file
         run: |
-          find / -name blank.yml
+          cd ..
+          ls -al
 
